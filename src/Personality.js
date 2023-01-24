@@ -1,19 +1,18 @@
 import React from "react";
 
-function Personality({ questions }) {
-  console.log(questions);
+function Personality({ questionList }) {
 
-  const postQuestions = questions.map((questions) => {
+  console.log(questionList);
+  const postQuestion = questionList.map((question) => {
     return (
-      <p>{questions.question}</p>
-    )
+      <div>
+        <p>{question.question}</p>
+        {question.answers.map((answer) => {return(<p>{answer.answer}</p>)})}
+      </div>
+    );
   });
 
-  return (
-    <div className="flex justify-center">
-      {postQuestions}
-    </div>
-  );
+  return <div className="flex justify-center">{postQuestion}</div>;
 }
 
 export default Personality;
