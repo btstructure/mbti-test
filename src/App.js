@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Personality from "./Personality";
+import PersonalityQuiz from "./PersonalityQuiz";
 
 function App() {
   const [questionList, setQuestionList] = useState([]);
@@ -14,8 +14,7 @@ function App() {
   return (
     <div>
       <div>
-        <h1 className="flex justify-center text-3xl p-10">MBTI TEST</h1>
-        <Personality questionList={questionList} />
+        <PersonalityQuiz questionList={questionList} />
       </div>
     </div>
   );
