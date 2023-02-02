@@ -10,10 +10,10 @@ function PersonalityQuiz({ questionList }) {
         </ol>
         {question.answers.map((answer) => {
           return (
-            <p>
+            <>
               <input type="radio" name="choice" />
               {answer.answer}
-            </p>
+            </>
           );
         })}
       </div>

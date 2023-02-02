@@ -5,7 +5,7 @@ function PersonalityList() {
   useEffect(() => {
     fetch("http://localhost:3002/personality")
       .then((res) => res.json())
-      .then((data) => setQuestionList(data));
+      .then((data) => setPersonalityList(data));
   }, []);
 
   const list = personalityList.map((list) => {
