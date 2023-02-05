@@ -1,0 +1,89 @@
+body {
+  margin-top: 70px;
+  margin: 0;
+}
+
+/* navbar css */
+.nav-bar {
+  background-color: rgb(52, 211, 153);
+  box-shadow: 0px 5px rgb(110, 231, 183, 0.6);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  font-family: "Itim", cursive;
+}
+
+.brain {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 35px;
+}
+
+.nav-ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+/*home page*/
+
+.home {
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.home-title {
+  font-family: "Itim", cursive;
+  font-size: 34px;
+  justify-content: center;
+  display: flex;
+}
+
+.home-title:hover {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  margin: 50px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in-out;
+  float: left;
+  border-radius: 20px;
+}
+
+.container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+}
+
+

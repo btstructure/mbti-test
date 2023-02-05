@@ -4,16 +4,16 @@ function PersonalityQuiz({ questionList }) {
   console.log(questionList);
   const postQuestion = questionList.map((question) => {
     return (
-      <div className="flex justify-center">
+      <div>
         <ol>
           <li>{question.question}</li>
         </ol>
         {question.answers.map((answer) => {
           return (
-            <>
+            <div>
               <input type="radio" name="choice" />
               {answer.answer}
-            </>
+            </div>
           );
         })}
       </div>
@@ -21,8 +21,8 @@ function PersonalityQuiz({ questionList }) {
   });
 
   return (
-    <div className="flex justify-center">
-      <h1 className="text-3xl p-10">MBTI TEST</h1>
+    <div>
+      <h1>MBTI Quiz</h1>
       <p>{postQuestion}</p>
     </div>
   );

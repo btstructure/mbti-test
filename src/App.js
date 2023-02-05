@@ -4,6 +4,7 @@ import Home from "./Home";
 import NavBar from "./NavBar";
 import PersonalityList from "./PersonalityList";
 import { Route, Routes } from "react-router-dom";
+import "./App.css"
 
 function App() {
   const [questionList, setQuestionList] = useState([]);

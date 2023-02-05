@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import brain from "./icons8-brains-64.png";
 
 function NavBar() {
   return (
-    <nav className="bg-black text-white">
-      <Link to="/">Home</Link>
-      <ul>
-        <li>
-          <Link to="/mbti-test">MBTI Test </Link>
+    <nav className="nav-bar">
+      <img src={brain} alt="brain" className="brain" />
+      <ul className="nav-ul">
+        <li class="nav-list">
+          <Link to="/">Home</Link>
         </li>
-        <li>
+        <li class="nav-list">
+          <Link to="/mbti-test">MBTI Quiz</Link>
+        </li>
+        <li class="nav-list">
           <Link to="mbti-personalities">MBTI Personalities</Link>
         </li>
       </ul>
