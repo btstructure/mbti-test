@@ -5,8 +5,8 @@ function Home() {
     <div className="home">
       <h1 className="home-title">Myers-Briggs Personality Type Indicator</h1>
       <container className="container">
-        <h2>What is the MBTI Test?</h2>
-        <p>
+        <h2 className="container-title">What is the MBTI Test?</h2>
+        <p className="container-paragraph">
           The Myers-Briggs Personality Type Indicator is a self-report inventory
           designed to identify a person's personality type, strengths, and
           preferences. The questionnaire was developed by Isabel Myers and her
