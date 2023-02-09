@@ -8,13 +8,13 @@ function NavBar() {
     <nav className="nav-bar">
       <img src={brain} alt="brain" className="brain" />
       <ul className="nav-ul">
-        <li class="nav-list">
+        <li className="nav-list">
           <Link to="/">Home</Link>
         </li>
-        <li class="nav-list">
+        <li className="nav-list">
           <Link to="/mbti-test">MBTI Quiz</Link>
         </li>
-        <li class="nav-list">
+        <li className="nav-list">
           <Link to="mbti-personalities">MBTI Personalities</Link>
         </li>
       </ul>

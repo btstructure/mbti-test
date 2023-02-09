@@ -21,12 +21,12 @@
       "question": "Do you like being the center of attention?",
       "answers": [
         {
-          "id": 3,
+          "id": 1,
           "answer": "Yes",
           "value" : "E"
         },
         {
-          "id": 4,
+          "id": 2,
           "answer": "No",
           "value" : "I"
         }
@@ -37,12 +37,12 @@
       "question": "Would you rather spend your weekends attending social events or relaxing at home?",
       "answers": [
         {
-          "id": 5,
+          "id": 1,
           "answer": "Social events",
           "value" : "E"
         },
         {
-          "id": 6,
+          "id": 2,
           "answer": "Relaxing at home",
           "value" : "I"
         }
@@ -53,12 +53,12 @@
       "question": "Do you find yourself exhausted after a social event?",
       "answers": [
         {
-          "id": 7,
+          "id": 1,
           "answer": "Yes",
           "value" : "I"
         },
         {
-          "id": 8,
+          "id": 2,
           "answer": "No",
           "value" : "E"
         }
@@ -69,13 +69,13 @@
       "question": "Do you have a small social circle?",
       "answers": [
         {
-          "id": 9,
+          "id": 1,
           "answer": "Yes",
           "value" : "I"
 
         },
         {
-          "id": 10,
+          "id": 2,
           "answer": "No",
           "value" : "E"
         }
@@ -86,12 +86,12 @@
       "question": "Are you a literal person or do you consider yourself metaphorical?",
       "answers": [
         {
-          "id": 11,
+          "id": 1,
           "answer": "Metaphorical",
           "value": "N"
         },
         {
-          "id": 12,
+          "id": 2,
           "answer": "Literal",
           "value": "S"
         }
@@ -102,12 +102,12 @@
       "question": "Do you live in the past and present or in the future",
       "answers": [
         {
-          "id": 13,
+          "id": 1,
           "answer": "Future",
           "value": "N"
         },
         {
-          "id": 14,
+          "id": 2,
           "answer": "Pass/Present",
           "value": "S"
         }
@@ -118,12 +118,12 @@
       "question": "Would you consider yourself a traditional person?",
       "answers": [
         {
-          "id": 15,
+          "id": 1,
           "answer": "No",
           "value": "N"
         },
         {
-          "id": 16,
+          "id": 2,
           "answer": "Yes",
           "value": "S"
         }
@@ -134,12 +134,12 @@
       "question": "Would you say you are more imaginative or obervant?",
       "answers": [
         {
-          "id": 17,
+          "id": 1,
           "answer": "Imaginative",
           "value": "N"
         },
         {
-          "id": 18,
+          "id": 2,
           "answer": "Observamt",
           "value": "S"
         }
@@ -150,12 +150,12 @@
       "question": "Do you prefer tangible information or are you more speculative?",
       "answers": [
         {
-          "id": 19,
+          "id": 1,
           "answer": "Speculative",
           "value": "N"
         },
         {
-          "id": 20,
+          "id": 2,
           "answer": "Tangible Information",
           "value": "S"
         }
@@ -166,12 +166,12 @@
       "question": "Do you follow your brain or follow your heart?",
       "answers": [
         {
-          "id": 21,
+          "id": 1,
           "answer": "Brain",
           "value": "T"
         },
         {
-          "id": 22,
+          "id": 2,
           "answer": "Heart",
           "value": "F"
         }
@@ -187,7 +187,7 @@
           "value": "T"
         },
         {
-          "id": 24,
+          "id": 2,
           "answer": "Being tactful",
           "value": "F"
         }
@@ -198,12 +198,12 @@
       "question": "When doing your job do you think `How does this help?` or `Who does this help?`?",
       "answers": [
         {
-          "id": 25,
+          "id": 1,
           "answer": "How does this help?",
           "value": "T"
         },
         {
-          "id": 26,
+          "id": 2,
           "answer": "Who does this help?",
           "value": "F"
         }
@@ -214,12 +214,12 @@
       "question": "Do you have a objective or subjective attitude?",
       "answers": [
         {
-          "id": 27,
+          "id": 1,
           "answer": "Objective",
           "value": "T"
         },
         {
-          "id": 28,
+          "id": 2,
           "answer": "Subjective",
           "value": "F"
         }
@@ -230,12 +230,12 @@
       "question": "When making a decision do you get a second opinion?",
       "answers": [
         {
-          "id": 29,
+          "id": 1,
           "answer": "No",
           "value": "T"
         },
         {
-          "id": 30,
+          "id": 2,
           "answer": "Yes",
           "value": "F"
         }
@@ -246,12 +246,12 @@
       "question": "Do you tend to make spontaneous decisions?",
       "answers": [
         {
-          "id": 31,
+          "id": 1,
           "answer": "No",
           "value": "J"
         },
         {
-          "id": 32,
+          "id": 2,
           "answer": "Yes",
           "value": "P"
         }
@@ -262,12 +262,12 @@
       "question": "Do you tend to start one project and move on to another?",
       "answers": [
         {
-          "id": 33,
+          "id": 1,
           "answer": "No",
           "value": "J"
         },
         {
-          "id": 34,
+          "id": 2,
           "answer": "Yes",
           "value": "P"
         }
@@ -278,12 +278,12 @@
       "question": "When planning a trip do you make a schedule or just go with the flow?",
       "answers": [
         {
-          "id": 35,
+          "id": 1,
           "answer": "Make a plan",
           "value": "J"
         },
         {
-          "id": 36,
+          "id": 2,
           "answer": "Go with the flow",
           "value": "P"
         }
@@ -294,12 +294,12 @@
       "question": "Do you prefer a chaotic or organized environment?",
       "answers": [
         {
-          "id": 37,
+          "id": 1,
           "answer": "Organized",
           "value": "J"
         },
         {
-          "id": 38,
+          "id": 2,
           "answer": "Chaotic",
           "value": "P"
         }
@@ -310,12 +310,12 @@
       "question": "Do you tend to procrastinate?",
       "answers": [
         {
-          "id": 39,
+          "id": 1,
           "answer": "No",
           "value": "J"
         },
         {
-          "id": 40,
+          "id": 2,
           "answer": "Yes",
           "value": "P"
         }

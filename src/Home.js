@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home">
       <h1 className="home-title">Myers-Briggs Personality Type Indicator</h1>
-      <container className="container">
+      <div className="container">
         <h2 className="container-title">What is the MBTI Test?</h2>
         <p className="container-paragraph">
           The Myers-Briggs Personality Type Indicator is a self-report inventory
@@ -13,7 +13,7 @@ function Home() {
           mother Katherine Briggs based on their work with Carl Jung's theory of
           personality types.
         </p>
-      </container>
+      </div>
     </div>
   );
 }
