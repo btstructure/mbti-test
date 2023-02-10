@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css"
 
 function App() {
-  const [questionList, setQuestionList] = useState({});
+  const [questionList, setQuestionList] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/questions")
