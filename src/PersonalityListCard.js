@@ -1,8 +1,10 @@
 import React from 'react'
 
-function PersonalityListCard() {
+function PersonalityListCard({personalityList}) {
+
+  
   return (
-    <div>PersonalityListCard</div>
+    <div></div>
   )
 }
 

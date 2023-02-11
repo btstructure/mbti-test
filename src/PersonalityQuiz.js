@@ -7,8 +7,6 @@ function PersonalityQuiz({ questionList }) {
   const [sN, setSN] = useState(0);
   const [tF, setTF] = useState(0);
   const [jP, setJP] = useState(0);
-  
-
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -67,6 +65,15 @@ function PersonalityQuiz({ questionList }) {
     }
   }, [eI, sN, tF, jP]);
 
+  function reset() {
+    setCurrentQuestion(0);
+    setPersonalityType("")
+    setEI(0)
+    setJP(0)
+    setSN(0)
+    setTF(0)
+  }
+
   return (
     <div className="quiz">
       <h1 className="quiz-title">MBTI Quiz</h1>
@@ -94,7 +101,10 @@ function PersonalityQuiz({ questionList }) {
           ""
         )}
         {currentQuestion === questionList.length && questionList.length > 0 ? (
-          <p>Your personality type is: {personalityType}</p>
+          <div>
+            <p>Your personality type is: {personalityType}</p>
+            <button onClick={reset}>Reset Quiz</button>
+          </div>
         ) : null}
       </p>
     </div>

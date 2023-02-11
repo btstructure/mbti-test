@@ -80,7 +80,7 @@ body {
   display: flex;
   align-items: center;
   width: 500px;
-  height: 700px;
+  height: 250px;
   margin: 50px;
   border: 1px solid black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -159,4 +159,34 @@ body {
 
 .submit-button{
   margin: 5px
+}
+
+/*mbti-personalities tab*/
+
+.personality-list {
+  margin-top: 70px;
+}
+
+.personality-list-title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  font-family: "Itim", cursive;
+}
+
+.search {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar {
+  width: 30%;
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px;
+  top: 0;
+  left: 0;
 }
