@@ -55,7 +55,7 @@ body {
 }
 
 /*home page*/
-.home body{
+.home body {
   overflow: hidden;
 }
 
@@ -145,20 +145,19 @@ body {
   position: fixed;
 }
 
-
 /* quiz buttons */
-.quiz-buttons{
+.quiz-buttons {
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-.back-button{
-  margin: 5px
+.back-button {
+  margin: 5px;
 }
 
-.submit-button{
-  margin: 5px
+.submit-button {
+  margin: 5px;
 }
 
 /*mbti-personalities tab*/
@@ -189,4 +188,13 @@ body {
   padding: 5px;
   top: 0;
   left: 0;
+}
+
+/*personality list*/
+
+.personality-container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  
 }

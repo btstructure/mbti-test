@@ -24,14 +24,14 @@ function PersonalityList() {
 
   const list = filteredList.map((list) => {
     return (
-      <div>
+      <div> 
         <p>{list.fourLetter}</p>
       </div>
     );
   });
 
   return (
-    <div class="personality-list">
+    <div className="personality-list">
       <div className="personality-list-title">
         <p>Personality List</p>
       </div>
